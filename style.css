@@ -160,6 +160,27 @@ body{
   font-style: normal;
   font-weight: 700;
 }
+#source{
+    width:150%;
+    margin-top: 20px;
+    margin-bottom:20px;
+    margin-left:10%;
+    color: #BDBDBD;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    text-align: left;
+    
+
+}
+
+footer{
+    color:rgb(173, 45, 22);
+    width:80%;
+    margin: auto;
+}
+
 
 @media screen and (max-width: 800px){
 body{
