@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@1,500&family=Playfair+Display:wght@700&display=swap');
+
+.main{
+    width: 80%;
+    margin:auto;
+    max-width:1300px;
+    
+}
+.main1 h1{
+    margin:0%;
+    font-family: Playfair Display;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+#para1{
+    width: 90%;
+    display:flex;
+    }
+#para1 p{
+    margin:0%;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+#img{
+    margin-top: 30px;
+    width: 969px;
+    height: 470px;}
+
+#main2{
+    display: flex;
+  
+}
+#main2a{
+    width: 65%;
+}
+#igmainhead{
+    font-family: Playfair Display;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+#igheading{
+    font-family: Playfair Display;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #333333;
+
+
+}
+#ig{
+    display: block;
+    list-style: none;
+    font-family: Montserrat;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;}
+
+#main2b{
+    width: 30%;
+ }
+#timebox{
+    position: relative;
+    margin: auto;
+    margin-top:10%;
+    height: 367px;
+    width: 216px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+}
+#timebox img{
+    height: 30px;
+    width: 30px;
+    margin-top: 5px;
+}
+#timebox>div{
+    position:relative;
+    width: 70%;
+    margin:auto;
+    top:30px;
+}
+#timebox>div>div{
+    padding: 15px;
+    display: flex;
+    width:80%;
+    
+ 
+}
+#timebox>div>div>div>a:nth-child(1){
+    font-family: Montserrat;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 12px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#BDBDBD;}
+
+#timebox>div>div>div>a:nth-child(3){
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#333333;
+    }
+
+.contents{
+    width:65%;
+    
+}
+.contents ol li{
+    counter-increment: list;
+    list-style-type: none;
+    position: relative;}
+
+.contents ol li:before {
+  background: #F2994A;
+  color:white;
+  border-radius: 6px;
+  content: counter(list);
+  left:-32px;
+  position: absolute;
+  text-align: center;
+  width: 26px;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 600px){
+body{
+    margin-top: 10%;
+    margin-left: 30%;
+}
+.main1 h1{
+        width: 200%;
+        font-size:38px;        
+    }
+#para1{
+    width:120%;
+}
+#dots{
+    margin-top: -35px;
+}
+#main2{
+        width:300%;
+        display:flex;
+        flex-direction: column-reverse;
+        
+        }
+#main2b{
+    width: 70%;  
+}
+#timebox{
+    box-shadow:none;
+    width: 800px;
+    height:200px;
+ 
+     
+     }
+#timebox div{
+    width:100%;
+}
+#timebox div>div:nth-child(1){
+    width:90%;
+}
+#timebox div>div{
+    width:15%;}
+#timebox div>div>div{
+    width:100%;
+}
+#timebox>div{
+    display: flex;
+    flex-wrap: wrap;
+}
+#img{
+    height: 213px;
+width: 352px;
+border-radius: 12px;
+
+}
+.contents{
+    width: 200%;
+}
+}
+
