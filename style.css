@@ -182,14 +182,13 @@ footer{
 
 
 
-@media screen and (max-width: 800px){
+@media screen and (max-width:800px){
 
 .main{
     width:100%;
-    margin: auto;}
-
-
-    
+    margin: auto;
+}
+   
 .main1 h1{
         width: 100%;
         font-size:38px;        
@@ -206,7 +205,11 @@ footer{
         flex-direction: column-reverse;
         
         }
- #main2b{
+#main2a{
+    margin-top: 20%;
+
+}
+#main2b{
             width: 70%;  
         }
 #timebox{
