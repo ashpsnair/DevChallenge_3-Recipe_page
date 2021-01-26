@@ -1,9 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@1,500&family=Playfair+Display:wght@700&display=swap');
+body{
+    width: 100%;
+    margin: auto;
+    max-width:1440px;
+}
 
 .main{
     width: 80%;
     margin:auto;
-    max-width:1300px;
+    transition: ease all .5s;
     
 }
 .main1 h1{
@@ -156,23 +161,24 @@
   font-weight: 700;
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 800px){
 body{
+    margin: auto;
     margin-top: 10%;
-    margin-left: 30%;
+    margin-left:30%;
 }
 .main1 h1{
         width: 200%;
         font-size:38px;        
     }
 #para1{
-    width:120%;
+    width:100%;
 }
 #dots{
     margin-top: -35px;
 }
 #main2{
-        width:300%;
+        width:150%;
         display:flex;
         flex-direction: column-reverse;
         
@@ -184,8 +190,6 @@ body{
     box-shadow:none;
     width: 800px;
     height:200px;
- 
-     
      }
 #timebox div{
     width:100%;
@@ -209,7 +213,8 @@ border-radius: 12px;
 
 }
 .contents{
-    width: 200%;
+    width: 120%;
+    text-align:justify;
 }
 }
 
