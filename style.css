@@ -224,6 +224,7 @@ aside{
     flex-wrap: nowrap;
     width:30%;
     padding: 1%;
+    
 }
 #timebox div>div>div{
     display:block;
@@ -233,14 +234,19 @@ aside{
 }
 
 #timebox div> div>div:nth-child(even){
-    width:100%;}
+    width:100%;
+}
+
 
 #main2a{
-    margin-top: 180px;
+    margin-top: 150px;
 }
 
 .contents{
     width:100%;
     
+}
+#timebox>div>div>div>a:nth-child(odd){
+    font-size: 12px;
 }
 }
