@@ -41,8 +41,8 @@
 
 }
 
-#main2{
-     display: flex;
+aside{
+    float:right;
 }
 #main2a{
     max-width: 735px;
@@ -126,7 +126,7 @@
 }
 
 footer{
-    color:rgb(173, 45, 22);
+    color:black;
     width:80%;
     margin: auto;
 }
@@ -181,45 +181,67 @@ footer{
     }
 
 
-
-@media screen and (max-width:800px){
+@media screen and (max-width:900px){
 
 .main{
-    width:100%;
-    margin: auto;
+    width:80%;
+    margin:auto;
+    
 }
-   
 .main1 h1{
-        width: 100%;
-        font-size:38px;        
-    }
-#para1{
-        width:80%;
-    }
-#dots{
-        margin-top: -30px;
-    }
-
-#main2{
-        display:flex;
-        flex-direction: column-reverse;
-        
-        }
-#main2a{
-    margin-top: 20%;
-
+    width: 100%;
+    font-size:38px;        
 }
-#main2b{
-            width: 70%;  
-        }
+#para1{
+    width:80%;
+}
+#dots{
+    margin-top: -30px;
+}
+
+aside{
+    float: none;
+  
+}
+
 #timebox{
+    display:flex;
+    width: 80%;
     box-shadow:none;
-    width: 800px;
-    height:200px;
+    height: 100px;
+    
      }
 #timebox div{
+    width: 100%;
+    display: flex;
+    margin:0%;
+    height: auto;
+    flex-wrap: wrap;
+}
+#timebox div>div{
+    display:flex;
+    flex-wrap: nowrap;
+    width:30%;
+    padding: 1%;
+}
+#timebox div>div>div{
+    display:block;
+}
+#timebox div>div:nth-child(1){
     width:100%;
 }
+
+#timebox div> div>div:nth-child(even){
+    width:100%;}
+
+#main2a{
+    margin-top: 180px;
+}
+
+/* 
+
+
+
 #timebox div>div:nth-child(1){
     width:90%;
 }
@@ -239,4 +261,4 @@ footer{
 }
 }
 
-
+ */
