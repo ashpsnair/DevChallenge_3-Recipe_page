@@ -191,10 +191,11 @@ footer{
 }
 .main1 h1{
     width: 100%;
-    font-size:38px;        
+    font-size:38px;  
+    line-height: 1;      
 }
 #para1{
-    width:80%;
+    width:90%;
 }
 #dots{
     margin-top: -30px;
