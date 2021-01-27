@@ -3,7 +3,7 @@
 .main{
     width: 100%;
     margin:auto;
-    max-width:970px;
+    max-width:900px;
 }
 .main1 h1{
     margin:0%;
@@ -45,7 +45,7 @@ aside{
     float:right;
 }
 #main2a{
-    max-width: 735px;
+    max-width: 650px;
     width: 100%;
 }
 
@@ -186,6 +186,7 @@ footer{
 .main{
     width:80%;
     margin:auto;
+  
     
 }
 .main1 h1{
@@ -238,27 +239,8 @@ aside{
     margin-top: 180px;
 }
 
-/* 
-
-
-
-#timebox div>div:nth-child(1){
-    width:90%;
-}
-#timebox div>div{
-    width:15%;}
-#timebox div>div>div{
-    width:100%;
-}
-#timebox>div{
-    display: flex;
-    flex-wrap: wrap;
-}
-
 .contents{
-    width: 100%;
-    text-align:justify;
+    width:100%;
+    
 }
 }
-
- */
