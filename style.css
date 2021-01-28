@@ -127,25 +127,7 @@ aside{
   font-style: normal;
   font-weight: 700;
 }
-#source{
-    margin-top: 20px;
-    margin-bottom:20px;
-    margin-left:10%;
-    color: #BDBDBD;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
-    font-style: italic;
-    font-weight: 400;
-    text-align: left;
-    
 
-}
-
-footer{
-    color:black;
-    width:80%;
-    margin: auto;
-}
 
 #timebox{
     position: absolute;
@@ -195,6 +177,34 @@ footer{
     text-align: left;
     color:#333333;
     }
+
+ .icon{
+    filter: invert(80%) sepia(24%) saturate(3766%) hue-rotate(326deg) brightness(99%) contrast(91%);
+
+ }   
+
+ #source{
+    margin-top: 20px;
+    margin-bottom:20px;
+    margin-left:10%;
+    color: #BDBDBD;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    text-align: left;
+    
+
+}
+
+footer{
+    position: relative;
+    color:black;
+    width:100%;
+    margin: auto;
+ 
+    
+}
 
 
 @media screen and (max-width:900px){
