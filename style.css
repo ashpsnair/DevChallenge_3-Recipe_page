@@ -87,12 +87,13 @@ aside{
     letter-spacing: 0em;
     text-align: left;
     color: #333333;
+    line-height: 2;
 
 }
 
 
 .contents{
-    width:60%;
+    width:70%;
     color: #333333;
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
@@ -101,17 +102,15 @@ aside{
     line-height: 24px;
     letter-spacing: 0em;
     text-align: left;
-    
-
-
-
-
+    line-height: 1.6;
     
 }
 .contents ol li{
     counter-increment: list;
     list-style-type: none;
-    position: relative;}
+    position: relative;
+    padding-left: 6px;
+}
 
 .contents ol li:before {
   background: #F2994A;
@@ -184,24 +183,22 @@ aside{
  }   
 
  #source{
-    margin-top: 20px;
-    margin-bottom:20px;
-    margin-left:10%;
+    width:100%;
     color: #BDBDBD;
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     font-style: italic;
     font-weight: 400;
-    text-align: left;
+    margin: auto;
+    text-align:center;
     
 
 }
 
 footer{
-    position: relative;
-    color:black;
     width:100%;
     margin: auto;
+    text-align:center;
  
     
 }
